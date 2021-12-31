@@ -1,5 +1,7 @@
 import random
 
+def add2(c):
+    return( c + 1)
 def guess(x):
     random_number = random.randint(1,x)
     guess = 0
@@ -12,5 +14,3 @@ def guess(x):
         
     print(f"WINNER WINNER CHICKEN DINNER! You have guessed the\
  number {random_number}.")
-
-guess(10)
