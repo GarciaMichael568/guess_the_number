@@ -1,11 +1,8 @@
 from sys import stderr, stdin, stdout
-from computer import add2,guess
+from computer import guess
 import sys
 import io
 
-def testAdd():
-    assert add2(2) == 3
-    assert add2(4) == 5
     
 def testGuess(capsys, monkeypatch):
     monkeypatch.setattr('sys.stdin', io.StringIO('1'))
