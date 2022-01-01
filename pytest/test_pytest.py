@@ -1,5 +1,5 @@
 from sys import stderr, stdin, stdout
-from computer import guess
+from computer_and_user import guess
 import sys
 import io
 
