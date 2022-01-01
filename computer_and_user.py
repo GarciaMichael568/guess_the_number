@@ -13,5 +13,9 @@ def guess(x):
     print(f"WINNER WINNER CHICKEN DINNER! You have guessed the\
  number {random_number}.")
 
+def computer_guess(x):
+    low = 1
+    high = x
+    
 if __name__ == '__main__':
     guess(2)
